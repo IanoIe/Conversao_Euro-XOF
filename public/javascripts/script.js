@@ -8,7 +8,7 @@ usdInput.addEventListener("keyup", () => {
 })
 
 brlInput.addEventListener("keyup", () => {
-    brlInput.value = formatCurrency(brlInput.value)
+    convert("brl-to-usd")
 })
 
 usdInput.value = "1000,00"
